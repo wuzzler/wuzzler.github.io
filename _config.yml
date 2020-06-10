@@ -1,0 +1,12 @@
+---
+title: Testing
+
+collections:
+  tools:
+    output: true
+
+defaults:
+  - scope:
+      path: '_tools'
+    values:
+      layout: tool

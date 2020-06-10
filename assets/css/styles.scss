@@ -1,0 +1,57 @@
+---
+---
+$accent: #ea6f00;
+$lighter: #EECC00;
+$marked: #EEEE88;
+$hover: #EEEE88;
+
+// base tags
+
+body {
+    font-family: sans, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    padding: 20px;
+}
+
+pre {
+    margin-top: 10px;
+}
+
+pre code {
+    background-color: #EEEEEE; 
+    display: block;
+    padding: 10px;
+}
+
+li {
+    display: inline-block;
+}
+
+tr:nth-child(even) {
+    background: $lighter;
+}
+
+// classes
+
+.header {
+    padding: 20px;
+}
+
+.tagblock a {
+    border: 1px solid $lighter;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: $lighter;
+}
+
+.tagblock a:hover {
+    background-color: $hover;
+}

@@ -1,0 +1,15 @@
+---
+layout: default
+title:  tools
+---
+
+<h1 class="title">Tools</h1>
+
+<table class="table is-striped is-fullwidth is-hoverable">
+    {% for tool in site.tools %}
+    <tr>
+        <td><a href="{{ tool.url }}">{{ tool.title }}</a></td>
+        <td class="tagblock">{% for tag in tool.tags %} <a href="">{{ tag }}</a> {% endfor %}</td>
+    </tr>
+    {% endfor %}
+</table>

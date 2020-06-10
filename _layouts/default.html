@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css">
+        <link rel="stylesheet" href="/assets/css/styles.css">
+    </head>
+    <body>
+        {% include navigation.html %}
+        <section class="section">
+            <div class="columns is-mobile is-centered">            
+                <div class="column is-three-quarters">
+                    {{ content }}
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
