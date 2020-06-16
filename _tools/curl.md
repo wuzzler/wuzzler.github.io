@@ -1,7 +1,9 @@
 ---
 title:  curl
 tags:
+ - basic
  - linux
+ - web
 ---
 
 > bla

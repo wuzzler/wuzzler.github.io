@@ -33,11 +33,29 @@ li {
     display: inline-block;
 }
 
+button {
+    background-color: #FFFFFF;
+    border: 1px solid $lighter;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: $lighter;
+}
+button:hover {
+    background-color: $hover;
+    cursor: pointer;
+}
+
 tr:nth-child(even) {
     background: $lighter;
 }
 
 // classes
+
+.hidden {
+    visibility: collapse;
+}
 
 .header {
     padding: 20px;

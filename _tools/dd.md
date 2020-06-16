@@ -1,9 +1,8 @@
 ---
 title:  dd
 tags:
+ - basic
  - linux
- - test1
- - test2
 ---
 > Simple tool for writing binary data from 'a' to 'b'
 
