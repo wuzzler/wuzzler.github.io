@@ -1,5 +1,5 @@
 ---
-title: Testing
+title: Config
 
 collections:
   tools:
@@ -10,3 +10,12 @@ defaults:
       path: '_tools'
     values:
       layout: tool
+
+# Conversion
+markdown            : CommonMarkGhPages
+
+# theme: Minima
+
+commonmark:
+  options: ["SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter"]

@@ -2,6 +2,4 @@
 layout: default
 title:  About
 ---
-# About
-
-nothing to see here...
+> Design ideas oriented at https://lolbas-project.github.io/
