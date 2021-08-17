@@ -9,7 +9,7 @@ source: repo
 ---
 > While originating from line editor `ed`, `sed` manipulates input streams according to passed patterns and flags
 
-Passing a file to `sed` you can use the substitute option `s` to replace the first occurence of a string with the given replacement. A trailing `g` flag will substitute *all* occurences per line.
+Passing a file to `sed` you can use the substitute option `s` to replace the first occurence of a string with the given replacement. A trailing `g` flag will substitute *all* occurences per line. Use `-i` to edit files in place - otherwhise only stdout will receive the result.
 
 ```bash
 # replace rgXptrn with replacement on passed rndFile - all occurences
@@ -37,3 +37,4 @@ Params explained
 - `-n` - noout cli option, supressing the output (limiting option, broadened with `p` flag)
 - `-e` - passing expression/instruction to execute, multiple times possible
 - `-f` - pass a script file instead of interactive input via terminal
+- `-i` - apply changes to file (in place)

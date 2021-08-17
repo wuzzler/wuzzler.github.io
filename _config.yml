@@ -4,6 +4,7 @@ title: Config
 collections:
   tools:
     output: true
+    permalink: /tools/
 
 defaults:
   - scope:

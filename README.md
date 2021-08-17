@@ -1,5 +1,9 @@
 # wuzzler.github.io
 
+## initial setup 
+
+see `setup.sh` and install GemFiles afterwards.
+
 ## GemFile
 
 ```bash
