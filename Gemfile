@@ -13,3 +13,5 @@ group :jekyll_plugins do
     gem 'jekyll-commonmark'
     gem 'jekyll-commonmark-ghpages'
 end
+
+gem "kramdown-syntax-coderay", "~> 1.0"

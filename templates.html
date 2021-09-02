@@ -1,0 +1,24 @@
+---
+layout: default
+title:  templates
+---
+<div class="columns is-centered">
+    <h1 class="title">Templates</h1>
+</div>
+<br>
+{% for template in site.templates %}
+<div class="card">
+    <div class="card-content">
+        <p class="title">
+            {{ template.title }}
+        </p>
+        <div class="content">
+            {{ template.summary }}
+        </div>
+    </div>
+    <footer class="card-footer">
+        <a href="{{ template.url }}" class="card-footer-item">link2 - {{ template.title }}</a>
+    </footer>
+</div>
+<p></p>
+{% endfor %}

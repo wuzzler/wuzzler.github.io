@@ -4,16 +4,25 @@ title: Config
 collections:
   tools:
     output: true
-    permalink: /tools/
+  templates:
+    output: true
 
 defaults:
   - scope:
       path: '_tools'
     values:
       layout: tool
+  - scope:
+      path: '_templates'
+    values:
+      layout: template
 
 # Conversion
-markdown            : CommonMarkGhPages
+markdown            : Kramdown
+
+kramdown:
+  syntax_highlighter: coderay
+  syntax_highlighter_opts: { line_numbers: table }
 
 # theme: Minima
 

@@ -108,3 +108,7 @@ tr:nth-child(even) {
 .tagblock a:hover {
     background-color: $hover;
 }
+
+.highlighter-coderay {
+    overflow: auto;
+}
