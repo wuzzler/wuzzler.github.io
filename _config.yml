@@ -20,9 +20,11 @@ defaults:
 # Conversion
 markdown            : Kramdown
 
+highlighter: rouge
+
 kramdown:
-  syntax_highlighter: coderay
-  syntax_highlighter_opts: { line_numbers: table }
+  syntax_highlighter: rouge
+  # syntax_highlighter_opts: { line_numbers: table }
 
 # theme: Minima
 
