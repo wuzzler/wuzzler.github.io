@@ -1,5 +1,7 @@
 ---
 ---
+$maincolor: #a2a2a2;
+$mainaccent: #888;
 $accent: #b71c1c;
 $lighter: #f05545;
 $marked: #7f0000;
@@ -15,6 +17,15 @@ body {
 
 a {
     text-decoration: none;
+}
+
+a:hover {
+    color: $accent;
+}
+
+a.navbar-item:hover {
+    background-color: $mainaccent;
+    color: $accent;
 }
 
 h2 {
@@ -88,8 +99,6 @@ tr:nth-child(even) {
     background: $lighter;
 }
 
-// classes
-
 .hidden {
     visibility: collapse;
 }
@@ -113,4 +122,18 @@ tr:nth-child(even) {
 
 .highlighter-coderay {
     overflow: auto;
+}
+
+.is-maincolored {
+    background-color: $maincolor;
+}
+
+.navbar {
+    background-color: $maincolor;
+    z-index: 0;
+}
+
+.overlap {
+    position: absolute;
+    width: 100%;
 }

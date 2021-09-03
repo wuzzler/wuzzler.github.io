@@ -5,12 +5,15 @@ title:  templates
 <div class="columns is-centered">
     <h1 class="title">Templates</h1>
 </div>
+<hr>
 <br>
+<div class="columns is-multiline">
 {% for template in site.templates %}
+<div class="column is-one-third">
 <div class="card">
     <div class="card-content">
-        <p class="title">
-            {{ template.title }}
+        <p class="subtitle">
+            /{{ template.title }}
         </p>
         <div class="content">
             {{ template.summary }}
@@ -20,5 +23,6 @@ title:  templates
         <a href="{{ template.url }}" class="card-footer-item">link2 - {{ template.title }}</a>
     </footer>
 </div>
-<p></p>
+</div>
 {% endfor %}
+</div>

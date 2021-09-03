@@ -2,7 +2,6 @@
 title:  hashcat
 os: linux/windows
 tags:
- - basic
  - itsec
  - linux
  - windows
