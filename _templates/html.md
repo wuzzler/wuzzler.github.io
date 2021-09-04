@@ -1,6 +1,6 @@
 ---
 title: HTML
-summary: basic html template
+summary: basic html template with sri hash
 ---
 
 Basic templates for `html` can be found at [W3C](https://dev.w3.org/html5/html-author/#basic-templates) website, for inclution of external resources one should generate `SRI` hashes (generate [here](https://www.srihash.org/)) to guarantee the integrity/authenticity of the resource.

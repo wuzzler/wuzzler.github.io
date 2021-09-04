@@ -6,6 +6,8 @@ collections:
     output: true
   templates:
     output: true
+  articles:
+    output: true
 
 defaults:
   - scope:
@@ -16,6 +18,10 @@ defaults:
       path: '_templates'
     values:
       layout: template
+  - scope:
+      path: '_articles'
+    values:
+      layout: article
 
 # Conversion
 markdown            : Kramdown

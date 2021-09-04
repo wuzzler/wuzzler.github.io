@@ -133,7 +133,15 @@ tr:nth-child(even) {
     z-index: 0;
 }
 
+.navbar-brand a {
+    color: $hover;
+}
+
 .overlap {
     position: absolute;
     width: 100%;
+}
+
+.subtitle {
+    padding-top: 1em;
 }
