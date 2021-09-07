@@ -1,14 +1,74 @@
 ---
 layout: default
-title:  Home
+title: Home
 ---
 <div class="columns is-centered">
     <div class="column">
         <p>
-        Small collection of things I encountered throughout my journeys in the web and different operating systems.
+            Small collection of things I tend to forget or searching longer than needed.
         </p>
-        <p>
-        Tools resembles used stuff in Linux and Windows, articles are currently empty.
-        </p>
+        <hr>
+        <div class="card">
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-left">
+                        <figure class="image is-48x48">
+                            <br>
+                            <i class="fas fa-tools fa-3x"></i>
+                        </figure>
+                    </div>
+                    <div class="media-content">
+                        <p class="title is-4">Tools</p>
+                        <p class="subtitle is-6">Count: {{ site.tools.size }}</p>
+                    </div>
+                </div>
+    
+                <div class="content">
+                    Basic tools explained, for deeper understanding: RTFM
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="card">
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-left">
+                        <figure class="image is-48x48">
+                            <br>
+                            <i class="far fa-file-code fa-3x"></i>
+                        </figure>
+                    </div>
+                    <div class="media-content">
+                        <p class="title is-4">Templates</p>
+                        <p class="subtitle is-6">Count: {{ site.templates.size }}</p>
+                    </div>
+                </div>
+    
+                <div class="content">
+                    Basic structure of some programming languages.
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="card">
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-left">
+                        <figure class="image is-48x48">
+                            <br>
+                            <i class="far fa-file-alt fa-3x"></i>
+                        </figure>
+                    </div>
+                    <div class="media-content">
+                        <p class="title is-4">Articles</p>
+                        <p class="subtitle is-6">Count: {{ site.articles.size }}</p>
+                    </div>
+                </div>
+    
+                <div class="content">
+                    Yeah currently empty... (the one is a dud)
+                </div>
+            </div>
+        </div>
     </div>
 </div>

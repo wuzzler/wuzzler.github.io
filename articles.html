@@ -18,6 +18,7 @@ title:  articles
 <table class="table is-striped is-fullwidth is-hoverable" id="toolTime">
     {% for article in site.articles %}
     <tr>
+        <td></td>
         <td><a href="{{ article.url }}">{{ article.title }}</a></td>
         <td>{% for tag in article.tags %} <button onclick="queryHandler('+{{ tag }}');">{{ tag }}</button> {% endfor %}</td>
     </tr>
