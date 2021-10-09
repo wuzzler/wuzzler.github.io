@@ -34,7 +34,7 @@ BEGIN { FS = "[',;\t]" } # set field seperator to array - any match seperates th
 }
 
 $1 ~ /ger/ { print "itsamatch" } # conditional print: field 1 must match regex pattern 
-/m/ { print "123 in here" } # prints if any field matches pattern, but only once
+/m/ { print "123 in here" } # prints if any field matches pattern, but only once per line
 
 # print number of blank lines
 /^$/	{

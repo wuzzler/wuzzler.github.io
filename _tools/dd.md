@@ -9,7 +9,7 @@ source: repo
 > Simple tool for writing binary data from 'a' to 'b'
 
 ```bash
-# create bootable thumbdrive form image file
+# create bootable thumbdrive from image file (non windows)
 dd if=/path/to/inputfile of=/dev/sda bs=4M conv=fdatasync status=progress
 ```
 
