@@ -62,7 +62,8 @@ function resetFilter() {
 }
 
 function clickSearch() {
-    var searchquery = window.location.hash.substr(1);
+    var searchquery = decodeURI(window.location.hash.substring(1));
+
     if (searchquery != null && searchquery != undefined) {
         var src = document.getElementById('searchTools');
         src.value = searchquery;
